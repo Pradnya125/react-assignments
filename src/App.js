@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import ProductDetails from "./components/ProductDetails";
 
 
  const App=()=>{
@@ -26,7 +27,7 @@ const router =createBrowserRouter([
         element:<App />,
         children:[
             {
-                path:'home',
+                path:'/',
                 element:<Home />
             },
             {
@@ -36,6 +37,11 @@ const router =createBrowserRouter([
             {
                 path:'contact',
                 element:<Contact/>
+            },
+            {
+               path:'/productDetails/:prodId',
+               element:<ProductDetails />
+
             }
         ]
 

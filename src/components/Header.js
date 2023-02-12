@@ -6,7 +6,7 @@ const Header =()=>{
         <div className="font-bold text-2xl ">App1</div>
        <nav >        
           <ul className="flex ">
-            <Link to="/home" className="p-2 mx-3">Home</Link>
+            <Link to="/" className="p-2 mx-3">Home</Link>
             <Link to='/about'  className="p-2 mx-3">About</Link>
             <Link to='/contact'  className="p-2 mx-3">Contact</Link>
             <button className="mr-2 border border-cyan-50 px-2">Login</button>            
